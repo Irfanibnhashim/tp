@@ -1,14 +1,22 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <script>
+      function myfunction1 {
+      document.getElementById('myImage').src='Sufi_hair.jpg';}
+      function myfunction2 {
+      document.getElementById('myImage').src='Sufi.jpg';}
+    </script>
+  </head>
 <body>
 
-<script>
-<button onclick="document.getElementById('myImage').src='Sufi_hair.jpg'">Sufiyan 2.O</button>
+
+<button onclick="myfunction1">Sufiyan 2.O</button>
 
 <img id="myImage" src="Sufi.jpg" style="width:100px">
 
-<button onclick="document.getElementById('myImage').src='Sufi.jpg'">Sufiyan 1.O</button>
-</script>
+<button onclick="myfunction2">Sufiyan 1.O</button>
+
 </body>
 
 </html>
